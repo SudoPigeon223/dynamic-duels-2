@@ -218,7 +218,7 @@
       scaffolding.setUsername("player####".replace(/#/g, () => Math.floor(Math.random() * 10)));
       scaffolding.setAccentColor("#ff4c4c");
 
-      scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider("wss://47.203.144.216:9080", "1"));
+      scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider("ws://47.203.144.216:9080", "1"));
 
       vm.setTurboMode(false);
       if (vm.setInterpolation) vm.setInterpolation(true);
